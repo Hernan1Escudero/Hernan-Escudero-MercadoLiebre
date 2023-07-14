@@ -1,0 +1,198 @@
+body.home{
+    background-color:#EAC926;
+    font-family: var(--tipografia);
+    box-sizing: border-box;
+    
+}
+
+.home__main {
+    align-self: center;
+    background-color:#ebebeb;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+ .main_section_article  {
+   background-color: white;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+   height: 100%;
+
+ }
+ .main_section_article div  {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+ 
+  }
+  .main_section_article img{
+    margin:auto;
+    width: 100%
+  
+  }
+  .article__icon--circle  {
+    border-style: solid;
+    border-color: #39b54a;
+
+    color:  #39b54a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  /*----------------------------- Estilos para Productos*/
+
+h2.titular{
+    font-size: 24px;
+    margin:3%;
+    color: #666;
+    text-align: center;
+}
+
+.main_section_article p.precio {
+    font-size: 18px;
+}
+.main_section_article p.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+.main_section_article p.descripcion{
+    font-size: 16px;
+    display: none;
+}
+
+/*----------------------------- Estilos para Nav*/
+.home__header__saludoInicial{
+    text-align: center;
+}
+.home__header--horizontal .burger-menu{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.home__header--horizontal .iconContainer--burgerMenu{
+    
+   margin: 0 auto;
+   width: 10%;
+   background-color:  #1259c3;
+   border-radius: 10%;
+   text-align: center;
+
+}
+.home__header--horizontal .burger-menu i{
+
+    margin: 5%;
+    color:white
+
+}
+.home__header__nav {
+    margin: 2%;
+    display: none;
+}
+.home__header__nav ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.home__header__banner--top{
+  width: 50%;
+}
+.home__header__banner--bottom{
+   
+    width: 100%;
+    height: auto; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    margin: 0;
+    border-style: none
+  }
+.home__header__searchBar{
+   margin: 2%;
+   margin-right: 0;
+   
+
+}
+
+.home_header--horizontal{
+    margin-bottom: 0;
+}
+
+
+/*----------------------------- Estilos para Footer*/
+
+
+footer{
+    padding: 10px;
+    background-color: white;
+  
+}
+footer article{
+    text-align: center;
+    align-items: center;
+    margin: 4%;
+}
+footer article h3{
+    color: #666
+}
+footer article p {
+    color: #666
+}
+footer article i.logo{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:#1259c3
+
+}
+
+@media screen and (min-width: 361px) {
+    .main_section_article p.descripcion{
+       display: contents;
+       
+    }
+    .main_section_article  {
+    
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+ 
+         
+      }
+      .home__header__nav  {
+       display: contents;
+       margin: 5%;
+    }
+    .home__header__nav ul {
+       
+        margin: 5%;
+     }
+    .burger-menu{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .main_section_article p.descripcion{
+       display: contents;
+       
+    }
+    .main_section_article  {
+       
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .home__header__nav {
+        display: contents;
+        margin: 5%;
+     }
+     .home__header__nav ul  {
+       
+        margin: 5%;
+     }
+     .burger-menu{
+         display: none;
+     }
+  }

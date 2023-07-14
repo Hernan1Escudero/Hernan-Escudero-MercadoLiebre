@@ -1,121 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
-*{
+@import "../css/home.css";
+
+* {
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 
 }
 :root {
    --tipografia:'Roboto', sans-serif;
 }
 
-body.home{
-    background-color:#EAC926;
-    font-family: var(--tipografia);
-    box-sizing: border-box;
-}
-
-/*----------------------------- Estilos para Nav*/
-header p.saludoInicial{
-    margin: 2%;
-
-}
-header .burger-menu{
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-}
-header .iconContainer--burgerMenu{
-    
-   margin: 0 auto;
-   width: 10%;
-   background-color:  #1259c3;
-   border-radius: 10%;
-   text-align: center;
-
-}
-header .burger-menu i{
-
-    margin: 5%;
-    color:white
-
-}
-nav{
-    margin: 2%;
-}
-nav ul li {
-
-    font-size: 12px;
-}
-
-header .banner{
-  width: 50%;
-}
-header.searchBar{
-   margin: 2%;
-   margin-right: 0;
-   
-
-}
-
-/*----------------------------- Estilos para Productos*/
-.producto img{
-    width: 100%;
-   
-}
-section{
-    box-sizing: border-box;
-}
-h2.titular{
-    font-size: 24px
-}
-section.primeraVisita--section,.ultimaVisita--section {
-    padding: 2%;
-    background-color:  #ebebeb;;
-
-}
-article.producto{
-    margin: 5%;
-    background-color: white;
-
-}
-article.producto p.precio {
-    font-size: 18px;
-}
-article.producto p.descuento{
-    font-size: 16px;
-
-}
-
-article.producto p.descripcion{
-    font-family: 16px;
-}
-
-/*----------------------------- Estilos para Footer*/
-
-
-footer{
-    padding: 10px;
-    background-color: white;
-  
-}
-footer article{
-    text-align: center;
-    align-items: center;
-    margin: 4%;
-}
-footer article h3{
-    color: #666
-}
-footer article p {
-    color: #666
-}
-footer article i.logo{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color:#1259c3
-
-}
