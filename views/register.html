@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form action="pagina_principal.html" method="post">
+        <label for="nombre_apellido">Nombre y Apellido:</label>
+        <input type="text" id="nombre_apellido" name="nombre_apellido" required><br><br>
+
+        <label for="nombre_usuario">Nombre de usuario:</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required><br><br>
+
+        <label for="perfil_usuario">Perfil del usuario:</label>
+        <input type="radio" id="perfil_compra" name="perfil_usuario" value="comprar" required>
+        <label for="perfil_compra">Comprar</label>
+        <input type="radio" id="perfil_venta" name="perfil_usuario" value="vender" required>
+        <label for="perfil_venta">Vender</label><br><br>
+
+        <label>Categorías de interés:</label><br>
+        <input type="checkbox" id="categoria_electro" name="categorias[]" value="Electro">
+        <label for="categoria_electro">Electro</label><br>
+        <input type="checkbox" id="categoria_moda" name="categorias[]" value="Moda">
+        <label for="categoria_moda">Moda</label><br>
+        <input type="checkbox" id="categoria_hogar" name="categorias[]" value="Hogar">
+        <label for="categoria_hogar">Hogar</label><br>
+        <input type="checkbox" id="categoria_jugueteria" name="categorias[]" value="Juguetería">
+        <label for="categoria_jugueteria">Juguetería</label><br>
+        <input type="checkbox" id="categoria_vida_sana" name="categorias[]" value="Vida sana">
+        <label for="categoria_vida_sana">Vida sana</label><br><br>
+
+        <label for="foto_usuario">Foto de usuario:</label>
+        <input type="file" id="foto_usuario" name="foto_usuario" required><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+        <label for="confirmar_contrasena">Confirmar contraseña:</label>
+        <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
+
