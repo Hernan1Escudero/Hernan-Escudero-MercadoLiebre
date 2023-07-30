@@ -44,7 +44,7 @@ body.login{
 .register__form__profiles{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
 }
 .register__form__userProfile{
     display: flex;
@@ -196,7 +196,10 @@ footer article i.logo{
 
 
 @media screen and (min-width: 361px) {
-    
+    .register__form__profiles{
+      
+        flex-direction: row;
+    }
     .home__header__banner--top {
         width: 33.33%;
         margin-right: 2px;
