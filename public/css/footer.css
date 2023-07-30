@@ -1,0 +1,33 @@
+body{
+    background-color:#EAC926;
+    font-family: var(--tipografia);
+    box-sizing: border-box;
+    margin: 0
+    
+}
+
+/*----------------------------- Estilos para Footer*/
+
+footer{
+    
+    padding: 10px;
+    background-color: white;
+  
+}
+footer article{
+    text-align: center;
+    align-items: center;
+    margin: 4%;
+}
+footer article h3{
+    color: #666
+}
+footer article p {
+    color: #666
+}
+footer article i.logo{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:#1259c3
+
+}

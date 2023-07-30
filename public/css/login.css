@@ -12,64 +12,37 @@ body.login{
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-.register__main__form{
+.login__main__form{
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
 }
-.register__main__form input{
-    align-self: center;
-    width: 70%; 
-    display: flex;
-  
-    justify-content: center;
-    align-items: stretch;
+
+.login__main__form input {
+    height: 10vh;
+    border-radius: 10px;
+    border-style: none;
 }
-.register__main__form input::placeholder {
-    text-align: center; 
+.login__main__form--submit{
+    background-color:  #1259c3;
+    color: white;
+    font-size: 16px;
+}
+
+.login__main__form input::placeholder {
+    text-align: left; 
     text-indent: 20px;
-   
     opacity: 0.5;
     color: #666;
 }
-.register__form__profiles{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-.register__form__userProfile{
-    display: flex;
-    margin-top: 9%;
 
-}
-.register__main_form__userphoto{
-    align-items: center;
-    align-self: center;
-}
-.register__main_form__userphoto input{
-    width: 100%;
-}
-.register__main_form--text-center{
-    text-align: center;
-}
-.register__form__userProfile-column{
-    display: flex;
-    flex-direction: column;
-    
-}
-.register__form__checkbox-label--container{
-    display: flex;
-    flex-direction: row-reverse;
-}
 /*----------------------------- Estilos para Nav*/
 .home__header{
     width: 100%;

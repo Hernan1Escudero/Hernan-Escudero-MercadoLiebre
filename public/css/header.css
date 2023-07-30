@@ -1,85 +1,18 @@
-body.login{
+body{
     background-color:#EAC926;
     font-family: var(--tipografia);
     box-sizing: border-box;
     
 }
-.login__main{
-    background-color: #666;
-    background-color:#ebebeb;
-    align-self: center;
-    
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.register__main__form{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-}
-.register__main__form input{
-    align-self: center;
-    width: 70%; 
-    display: flex;
-  
-    justify-content: center;
-    align-items: stretch;
-}
-.register__main__form input::placeholder {
-    text-align: center; 
-    text-indent: 20px;
-   
-    opacity: 0.5;
-    color: #666;
-}
-.register__form__profiles{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-.register__form__userProfile{
-    display: flex;
-    margin-top: 9%;
-
-}
-.register__main_form__userphoto{
-    align-items: center;
-    align-self: center;
-}
-.register__main_form__userphoto input{
-    width: 100%;
-}
-.register__main_form--text-center{
-    text-align: center;
-}
-.register__form__userProfile-column{
-    display: flex;
-    flex-direction: column;
-    
-}
-.register__form__checkbox-label--container{
-    display: flex;
-    flex-direction: row-reverse;
-}
 /*----------------------------- Estilos para Nav*/
 .home__header{
     width: 100%;
-    
+    padding: 2%;
 }
 .home__header__banner-logo--container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 }
 .home__header__saludoInicial{
     text-align: center;
@@ -136,9 +69,8 @@ body.login{
   }
   .header__header__top-container{
     display: flex;
-   
+    margin-bottom: 2%;
     flex-wrap: wrap;
-    padding: 3%;
   }
   .home__header__search--container{
     display: flex;
@@ -157,40 +89,6 @@ body.login{
 .home_header{
     letter-spacing:0;
     background-color: #39b54a;
-}
-
-body{
-    background-color:#EAC926;
-    font-family: var(--tipografia);
-    box-sizing: border-box;
-    margin: 0
-    
-}
-
-/*----------------------------- Estilos para Footer*/
-
-footer{
-    
-    padding: 10px;
-    background-color: white;
-  
-}
-footer article{
-    text-align: center;
-    align-items: center;
-    margin: 4%;
-}
-footer article h3{
-    color: #666
-}
-footer article p {
-    color: #666
-}
-footer article i.logo{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color:#1259c3
-
 }
 
 
@@ -216,7 +114,7 @@ footer article i.logo{
     }
    
       .home__header__nav  {
-       
+        margin-top: 2%;
         width: 100%;
         display: flex;
         gap: inherit;
