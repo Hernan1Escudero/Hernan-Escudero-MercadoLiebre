@@ -167,30 +167,32 @@ body{
     
 }
 
-/*----------------------------- Estilos para Footer*/
 
-footer{
+.footer{
     
     padding: 10px;
     background-color: white;
   
 }
-footer article{
+.footer__article{
     text-align: center;
     align-items: center;
     margin: 4%;
 }
-footer article h3{
+.footer__article h3{
     color: #666
 }
-footer article p {
+.footer__article p {
     color: #666
 }
-footer article i.logo{
+.footer__article i.logo{
     font-size: 2em;
     margin-bottom: 10px;
     color:#1259c3
 
+}
+.footer__article i.logo:hover{
+   color:  #39b54a;
 }
 
 
@@ -239,7 +241,9 @@ footer article i.logo{
   }
 
   @media screen and (min-width: 769px) {
-    
+    .footer__articles__withIcons{
+        display: flex
+    }
     .home__header__nav {
         display: flex;
        gap: inherit;

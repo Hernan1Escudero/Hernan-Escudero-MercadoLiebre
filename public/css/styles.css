@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
-
+@import "css/footer.css";
+@import "css/header.css";
+@import "css/login.css";
 
 * {
     margin: 0px;
